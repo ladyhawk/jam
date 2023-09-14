@@ -223,7 +223,9 @@ export default function Start({newRoom = {}, urlRoomId, roomFromURIError}) {
 
         <hr className="mt-14 mb-14" />
 
-        <h1>Welcome to Jam</h1>
+        {!window.jamConfig.hideJamInfo && (
+          <div>
+            <h1>Welcome to Jam</h1>
 
         <div className="flex flex-row pt-4 pb-4">
           <div className="flex-1 pt-6">
@@ -271,7 +273,7 @@ export default function Start({newRoom = {}, urlRoomId, roomFromURIError}) {
               src="/img/jam.jpg"
             />
           </div>
-        </div>
+        )}
 
         <div className="pt-32 text-xs text-gray-400 text-center">
           <a
