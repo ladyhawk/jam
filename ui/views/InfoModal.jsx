@@ -27,7 +27,7 @@ export function InfoModal({roomId, room, close}) {
           Jam <b className="font-semibold">Pro</b> (Early Access): Make Jam your
           own.
           <br />
-          Set your own colors and logo, use your own domain.
+          DO I WORK Set your own colors and logo, use your own domain.
           <br />
           <br />
           <a
@@ -43,9 +43,9 @@ export function InfoModal({roomId, room, close}) {
           <img
             className="mt-8 md:mt-4 md:mb-4 md:mr-8"
             style={{width: 130, height: 130}}
-            alt="Jam mascot by @eejitlikeme"
-            title="Jam mascot by @eejitlikeme"
-            src="/img/jam.jpg"
+            alt="Lady Phoenix Endeavors Logo"
+            title="Lady Phoenix Endeavors Logo"
+            src="/img/logo.jpg"
           />
         </div>
       </div>
